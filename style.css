@@ -14,6 +14,33 @@ main {
   overflow: hidden;
 }
 
+header {
+  display: flex;
+}
+
+img {
+  width: auto;
+  height: 100px;
+  margin: 0 auto 2px auto;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 2rem;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
 
 body {
   background-color: #f9f7f1;
@@ -29,34 +56,16 @@ body {
   word-wrap: break-word;
 }
 
-/* header { */
-/*   align-items: center; */
-/*   display: flex; */
-/*   flex-direction: column; */
-/*   justify-content: center; */
-/* } */
-
-
 #links {
   display: flex;
   padding-top: 1rem;
+  font-size: 1.2rem;
 }
 
 #links>a {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
-#portrait {
-  display: flex;
-}
-
-#portrait > img {
-  height: auto;
-  width: 4rem;
-  padding-right: 10px;
-  margin: 0 auto 5px auto;
-  border-radius: 50%;
-}
 
 h1,
 h2,
@@ -85,11 +94,6 @@ a {
 
 nav a {
   margin-right: 10px;
-}
-
-textarea {
-  width: 100%;
-  font-size: 16px;
 }
 
 input {
@@ -164,15 +168,5 @@ footer {
 
   blockquote {
     color: #ccc;
-  }
-
-  textarea,
-  input {
-    background-color: #252525;
-    color: #ddd;
-  }
-
-  .helptext {
-    color: #aaa;
   }
 }
